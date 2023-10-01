@@ -1,0 +1,50 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName jjjapp
+    blueprints []
+    buildTool maven
+    cacheProvider redis
+    clientFramework react
+    clientPackageManager npm
+    clientTheme yeti
+    creationTimestamp 1696146813616
+    databaseType undefined
+    devDatabaseType *
+    dtoSuffix DTO
+    enableGradleEnterprise false
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    gradleEnterpriseHost ""
+    jhiPrefix jhi
+    jwtSecretKey "Pv+yEph1ABup4sJIyW/BE5UNQXNEHcQF6stXcvXDYd4eYriSEj0XsELFnj7nflpTF9Mc7u4rh05TGkgo3T7gItlDz/vbsESnvNeR11FLesrwO2ACcQvJnnEnzZ8T9V5H7cgDDEmzM1u+zDzx+HIeVc8RStDs3A1p6qhJ3pNMDw=="
+    languages [en, my]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    otherModules []
+    packageName my.codebridge.community.jjjapp
+    prodDatabaseType mysql
+    reactive true
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+  
+}
+
+
+
+paginate * with pagination
+service * with serviceImpl
+dto * with mapstruct
+
